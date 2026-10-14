@@ -2,7 +2,7 @@
 
 <p align="center">
   <img alt="progress" src="https://img.shields.io/badge/progress-0%2F10-1baf7a?style=flat-square">
-  <img alt="license" src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-8a8273?style=flat-square">
 </p>
 
 Passwords, ciphers, hashes and logs, all safe and local.
