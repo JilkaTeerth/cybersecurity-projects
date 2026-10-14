@@ -1,14 +1,19 @@
-# Cybersecurity Projects
+<p align="center"><img src="assets/banner.svg" alt="Cybersecurity Projects" width="100%"></p>
+
+<p align="center">
+  <img alt="progress" src="https://img.shields.io/badge/progress-0%2F10-1fd1c1?style=flat-square">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square">
+</p>
 
 Passwords, ciphers, hashes and logs, all safe and local.
 
-**Progress: 0 / 10**
-
 Each folder is one small, self contained project that does one thing. They get harder as the numbers go up: first scripts, then data and charts, then Java, SQL and APIs, then a first machine learning model.
 
+## Projects
+
 | # | Project | What it does | Language | Status |
-|---|---|---|---|---|
-| 01 | Password strength checker | Rates a password as weak, okay or strong. | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | ⬜ |
+|:-:|---|---|:-:|:-:|
+| 01 | Password strength checker | Rates a password as weak, okay or strong. | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | 🔜 |
 | 02 | Caesar cipher | Encrypts and decrypts text by shifting letters. | ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white) | ⬜ |
 | 03 | Random password generator | Generates strong random passwords. | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | ⬜ |
 | 04 | SHA-256 file integrity checker | Detects if a file has been changed. | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | ⬜ |
@@ -19,8 +24,17 @@ Each folder is one small, self contained project that does one thing. They get h
 | 09 | SQL injection and the fix | Shows an injection on a local toy app, then fixes it. | ![SQL](https://img.shields.io/badge/SQL-003B57?logo=sqlite&logoColor=white) | ⬜ |
 | 10 | SMS spam classifier | Flags spam texts with naive Bayes. | ![ML](https://img.shields.io/badge/ML-F7931E?logo=scikitlearn&logoColor=white) | ⬜ |
 
+✅ done &nbsp; 🔜 up next &nbsp; ⬜ planned
+
 ## Running a project
 
-Every folder has its own README with the exact commands. Python projects use `pip install -r requirements.txt`, Java projects compile with plain `javac`.
+```bash
+git clone https://github.com/JilkaTeerth/cybersecurity-projects.git
+cd cybersecurity-projects/01-...
+```
 
-More projects: [github.com/JilkaTeerth](https://github.com/JilkaTeerth)
+Every folder has its own README with the exact commands. Python projects need `pip install -r requirements.txt`, Java projects compile with plain `javac`.
+
+---
+
+<sub>Part of a series of six project collections. See them all at [github.com/JilkaTeerth](https://github.com/JilkaTeerth).</sub>
